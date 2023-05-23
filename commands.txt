@@ -4,3 +4,13 @@ git --version
 git init
 
 git add . (from workling directory to stage area)
+
+git commit -m "Message"
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git log  (to see changes)
+
+git push -u origin master
+
+git pull origin master
